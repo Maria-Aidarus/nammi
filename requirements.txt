@@ -1,0 +1,21 @@
+# FastAPI & Server
+fastapi==0.115.11
+uvicorn[standard]
+
+# Database & Migrations
+sqlalchemy==2.0.38
+psycopg2-binary==2.9.10
+alembic==1.15.1
+
+# Authentication & Security
+passlib[bcrypt]  # Secure password hashing
+PyJWT==2.10.1  # JWT authentication
+python-multipart  # Required for handling form data (file uploads)
+
+# Async Support & Performance
+httpx  # For making async HTTP requests
+httptools  # Optional: used by Uvicorn
+uvloop  # Optional: better event loop for performance
+
+# Environment Variables
+python-dotenv==1.0.1
