@@ -1,0 +1,37 @@
+# Virtual environment (venv)
+nammi-env/
+venv/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs & database files
+logs/
+*.log
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+.env.local
+
+# Docker-related
+*.dockerfile
+docker-compose.override.yml
+
+# VS Code workspace settings
+.vscode/
+
+# Jupyter Notebook checkpoints (if you use Jupyter)
+.ipynb_checkpoints/
+
+# macOS system files (if working on macOS)
+.DS_Store
+
+# Pytest & test cache
+.pytest_cache/
+.coverage
+htmlcov/
